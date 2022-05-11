@@ -2,7 +2,7 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    BOT_TOKEN = "5147335730:AAECZFZqCyKi3b_mxAsiVQU0sVgnu-AwAbI"
     # The Telegram API things
     API_ID = int(os.environ.get("API_ID", 12345))
     API_HASH = os.environ.get("API_HASH")
@@ -27,5 +27,5 @@ class Config(object):
     OWNER_ID = int(os.environ.get("OWNER_ID", ""))
     SESSION_NAME = "UPLOADER-X-BOT"
     # database uri (mongodb)
-    DATABASE_URL = os.environ.get("DATABASE_URL", "")
+    DATABASE_URL = "mongodb+srv://devbkn:<password>@cluster0.31qt4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     MAX_RESULTS = "50"
